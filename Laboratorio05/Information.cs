@@ -18,7 +18,7 @@ namespace Laboratorio05
         public static Information GetInformation()
         {
             if (Instance == null)
-                Instance = new Information("", "", "");
+                Instance = new Information("Emilio Contreras y Angel Pérez", "1246423, 1135323", "04");
 
             return Instance;
         }
